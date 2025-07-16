@@ -1,0 +1,56 @@
+I have a full-featured color palette generator web app called "ColorCraft" with the following existing features:
+
+- Random 5-color palette generation  
+- AI-powered color naming  
+- Image-based color extraction  
+- WCAG color contrast checker  
+- Export options (JSON, PNG, SCSS)  
+- Light/dark mode toggle  
+- Shareable palette links  
+- Local storage for saved palettes  
+- Responsive modern UI
+
+I want to upgrade and modernize the app with the following unique and advanced features. Please update both frontend (React) and backend (if required), and suggest new components or structure if necessary:
+
+💡 **New Features to Add:**
+
+1. **Palette Editing Tools**  
+   - Add drag-and-drop to reorder colors in the palette.  
+   - Add color locking (prevent locked colors from regenerating).  
+   - Allow manual editing of color HEX/RGB/HSLA values.
+
+2. **AI-Based Suggestions**  
+   - Add a keyword/mood-based palette generator using prompts like "sunset", "retro", "vintage", or "tropical".
+
+3. **Accessibility & Contrast Enhancements**  
+   - Add color blindness simulation options (protanopia, deuteranopia, tritanopia).  
+   - Automatically suggest accessible alternatives if contrast is not WCAG AA/AAA compliant.
+
+4. **Gradient Generator**  
+   - Allow users to create linear/radial gradients using colors from their palette.  
+   - Export CSS or PNG of the gradient.
+
+5. **Palette Preview in Real UI Mockups**  
+   - Create preview sections where users can see how their palette would look in a website layout (card UI, form UI, etc.).
+
+6. **Social & Export Improvements**  
+   - Add QR code generator for sharing palettes.  
+   - Export palettes as aesthetic posters/cards in PNG or PDF format.
+
+7. **UI/UX Enhancements**  
+   - Use glassmorphism or neumorphism where suitable for modals or cards.  
+   - Add animated transitions when generating palettes.  
+   - Use micro-interactions like hover effects, tooltips, and button animations.  
+   - Use animated SVGs or Lottie for icons or feedback.
+
+8. **PWA Support (Optional)**  
+   - Enable installable offline-ready version using service workers.
+
+9. **Palette History + Undo/Redo**  
+   - Maintain a history stack of generated palettes and allow users to undo or redo recent changes.
+
+10. **Cloud Sync Option (Optional)**  
+   - Add optional cloud sync (Firebase or Supabase) to save palettes to user accounts.
+
+📁 Please suggest best file structure if splitting into components or using context/state management is preferred for larger features. Use modern practices like functional components, hooks, and animation libraries like Framer Motion. Keep design minimal but aesthetic.
+
